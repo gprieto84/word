@@ -49,6 +49,9 @@ coverage.xml
 *.log
 *.pot
 
+# Visual Studio code 
+.vscode
+
 # Sphinx documentation
 docs/_build/
 
