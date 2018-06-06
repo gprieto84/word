@@ -27,7 +27,6 @@
   
   function getWordCount(jobID) {
     var timeout = "";
-  
     var poller = function() {
       // fire another request
       $http.get('/results/'+jobID).
